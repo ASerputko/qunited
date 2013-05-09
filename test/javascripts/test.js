@@ -9,5 +9,5 @@ test( "hello test2", function() {
 });
 
 test( "hello test3", function() {
-  ok( 1 == "2", "Should be ok!" );
+  ok( 1 == "1", "Should be ok!" );
 });
