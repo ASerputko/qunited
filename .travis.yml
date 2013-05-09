@@ -3,3 +3,11 @@ rvm:
   - 1.9.3
 script:
   - rake test:javascript
+
+
+notifications:
+  email:
+    recipients:
+      - aserputko@gmail.com
+    on_success: never
+    on_failure: always
